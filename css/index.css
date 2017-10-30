@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#A9D0F5;
+  color:white;
+}
+header {
+  width:100%;
+  background-color: rgb(39,32,154);
+  text-align: center;
+}
+.fotoPablo{
+  width:30%;
+}
+.imagen-maquetador{
+  width:60%;
+}
+h3{
+  text-align: center;
+  background-color:rgb(39,32,154);
+}
+p.titulo-formacion{
+  font-size:16px;
+  color:#0B0B61;
+  margin-top:20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+p.lugar{
+  font-size:12px;
+  text-align: right;
+  color:#0B0B61;
+  margin-bottom:15px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+
+}
+
+
+
+.perfil{
+  font-size:16px;
+  color:#0B0B61;
+  margin-top:20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-left: 5px solid blue;
+  padding-left: 5px;
+}
+.titulo{
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+.fondo{
+  width:100%;
+}
+.cita-ada{
+  display: none;
+}
+  .titulo-pc{s
+    display:none;
+  }
+
+.lupa{
+  width:15%;
+}
+img.imagen-estudios{
+  width:40%;
+  height: 40%;
+}
+.tituloPerfil{
+  display:flex;
+  justify-content: space-around;
+    background-color:rgb(39,32,154);
+
+}
+.subtituloPerfil{
+  align-self: center;
+}
+.lupa{
+  height: 50px;
+  width:50px;
+}
+.tituloEstudios {
+  display:flex;
+  justify-content: space-around;
+    background-color:rgb(39,32,154);
+
+}
+.subtituloEstudios{
+  align-self: center;
+}
+.tituloHabilidades{
+  display:flex;
+  justify-content: space-around;
+    background-color:rgb(39,32,154);
+}
+.imagenHabilidades{
+  width:40%;
+  height:70%;
+}
+.subtituloHabilidades{
+    align-self: center;
+}
+.contenidos{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:16px;
+  color:#0B0B61;
+  margin-top:20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-left: 5px solid blue;
+  padding-left: 5px;
+
+}
+.contenidos li{
+  margin-left: 20px;
+}
+.relacionEstudios, .relacionTrabajos, .textoHobbies{
+
+  color:#0B0B61;
+  margin-top:20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-left: 5px solid blue;
+  padding-left: 5px;
+}
+.tituloEmpleo{
+  display:flex;
+  justify-content: space-around;
+    background-color:rgb(39,32,154);
+}
+.imagen-empleo{
+  width:40%;
+  height: 40%;
+}
+.subtituloEmpleo{
+  align-self: center;
+}
+.trabajo, .fecha{
+  font-size:16px;
+  color:#0B0B61;
+  margin-top:20px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+.tituloHobbies{
+  display:flex;
+  justify-content: space-around;
+    background-color:rgb(39,32,154);
+}
+.subtituloHobbies{
+  align-self: center;
+}
+
+.imagenHobbies{
+  width:40%;
+  height: 40%;
+}
+.profesion{
+  color:blue;
+  text-align: center;
+  margin:20px;
+}
+
+
+  @media (min-width: 480px) {
+
+.perfil{
+  font-size: 25px;
+}
+
+
+.cita-ada{
+  display: block;
+    background-image: url(../images/fondo.jpg);
+    padding: 20px 100px 100px 100px;
+    font-style: italic;
+     color: rgb(32,28,176);
+     font-weight: bold;
+     font-size: 1.5em;
+
+}
+img.imagen-estudios {
+  width:170px;
+  height: :121px;
+}
+.lupa{
+  height:121px;
+  width:121px;
+}
+.imagenHabilidades{
+  height: 102px;
+  width:176px;
+}
+.imagen-empleo{
+  height: 110px;
+  width:174px;
+}
+.imagenHobbies{
+  height: 131px;
+  width: 169px;
+}
+}
+
+
+}
+
+
+
+  @media (min-width: 980px) {
+    h1.titulo-pc{
+      display:block;
+      padding:50px;
+      background-color: rgb(39,32,154);
+      font-size: 50px;
+      text-align: center;
+      font-family: serif;
+
+
+
+    }
+    header{
+      display:block;
+      width:100%;
+
+    }
+  }
